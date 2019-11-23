@@ -22,7 +22,7 @@ def move_file(file):
 
 
 
-for file in os.listdir('./Datasets/'):
+for file in os.listdir('Datasets/'):
     if file.endswith('.csv'):
     	print('Cleaning: ', file)
 
